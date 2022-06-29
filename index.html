@@ -4,50 +4,70 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
-
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<div>
+	
 		<!-- header -->
 		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
-
+			<div class = "color-opacity">
+			<!-- title h1 -->
+			<a href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a> 
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+			<nav>
+				<div class = "links">
+					<a href="menu.html">Menu</a>
+					<a href="#Reservations">Reservations</a>
+					<a href="#Special Offers">Special Offers</a>
+					<a href="#Contact">Contact</a>
+				</div>
+
+				<div class = "icons">
+					<a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="http://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>		
+				</div>
+			</nav>
 			</div>
+
 		</header>
+	
 
 		<!-- gallery section -->
 		<section class="gallery">
-			<div>
-				<h2>OUR FOOD</h2>
+			
+			<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+			<div class = "images1">
 
-				img/food-burger.jpg
+				<img src="img/food-avocadotoast.jpg" alt="First Pic"> 
 
-				img/food-poutine.jpg
+				<img src="img/food-burger.jpg" alt="Second Pic"> 
 
-				img/food-ribs.jpg
+				<img src="img/food-poutine.jpg" alt="Third Pic">
+			</div> 
 
-				img/food-sandwich.jpg
+			<div class = images2>
 
-				img/food-sausage.jpg
+				<img src="img/food-ribs.jpg" alt="Fourth Pic">
 
-				img/food-steak.jpg
+				<img src="img/food-sandwich.jpg" alt="Fifth Pic">
 
-				img/food-tacos.jpg
+				<img src="img/food-sausage.jpg" alt="Sixth Pic"> 
+			</div>
 
-				img/food-wings.jpg
+			<div class = images3>
+
+				<img src="img/food-steak.jpg" alt="Seventh Pic">
+
+				<img src="img/food-tacos.jpg" alt="Eighth Pic">
+
+				<img src="img/food-wings.jpg" alt="Ninth Pic"> 
 			</div>
 		</section>
 
@@ -110,7 +130,7 @@
 					<div class="contacts">
 						<h3>Contacts</h3>
 
-						<div>
+						<div class = "contact-info">
 							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
 							<a id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
 						</div>
@@ -124,18 +144,31 @@
 
 		<!-- footer -->
 		<footer>
-			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
-			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
-			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+            <div class = "footer-container1">
+				<!-- email signup -->
+				<p>Join our mailing list!</p>
+				<input type="text" placeholder="Email Address"> 
+				<button>Sign Up</button>
+				</div>
+	
+	
+				<!-- nav -->
+				<div class = "footer-container2">
+				<nav>
+					<div class = "links2">
+						<a href="menu.html">Menu</a>
+						<a href="#Reservations">Reservations</a>
+						<a href="#Special Offers">Special Offers</a>
+						<a href="#Contact">Contact</a>
+					</div>
+				</nav>
+				</div>
+	
+				<!-- copyright -->
+				<div class = "footer-container3">
+				<p class = "copyright">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved. </p> 
+				</div>
 		</footer>
-	</div>
 </body>
 
 </html>
